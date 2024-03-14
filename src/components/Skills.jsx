@@ -3,7 +3,7 @@ import iconSkills from "../data/skills.js";
 const Skills = () => {
   return (
     <section className="max-w-screen-xl mx-auto p-4 mt-16">
-      <h2 className="text-3xl dark:text-white text-center font-bold">
+      <h2 className="text-4xl font-serif dark:text-white text-center font-bold">
         My Skills
       </h2>
       <div className="grid gap-4 grid-cols-custom mt-8">
