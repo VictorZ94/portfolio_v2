@@ -1,7 +1,7 @@
 const About = () => {
   return (
     <section className="max-w-screen-xl mx-auto p-4 mt-16">
-      <h2 className="text-3xl dark:text-white font-bold">ABOUT</h2>
+      <h2 className="text-5xl dark:text-white font-bold font-serif">About</h2>
       <div className="flex justify-between space-x-3 mt-4">
         <span className="block mt-2 w-16 h-0.5 bg-gold-300"></span>
         <div className="dark:text-white">
