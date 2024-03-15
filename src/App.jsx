@@ -1,4 +1,6 @@
 import About from "./components/About";
+import Contact from "./components/Contact";
+import Experience from "./components/Experience";
 import Navbar from "./components/Navbar";
 import Portfolio from "./components/Portfolio";
 import Skills from "./components/Skills";
@@ -12,7 +14,9 @@ function App() {
         <div className="max-w-screen-xl text-white mx-auto p-4 h-4/5 flex flex-col justify-center relative">
           <h1 className="text-3xl">
             <span className="uppercase">{"I'm"}</span>{" "}
-            <span className="text-gold-300 text-6xl">Victor Zuluaga</span>
+            <span className="text-gold-300 text-6xl font-serif">
+              Victor Zuluaga
+            </span>
           </h1>
           <p className="text-2xl">Web developer & mobile developer</p>
           <button
@@ -21,14 +25,19 @@ function App() {
           >
             Contact me
           </button>
-          <div className="absolute right-32 bottom-0">
+          <div className="absolute z-10 right-32 bottom-0">
             <Social></Social>
           </div>
+          <div className="bg-image absolute bottom-[-160px] right-48 w-full h-full"></div>
         </div>
       </header>
       <About />
       <Skills />
       <Portfolio />
+      <section className="bg-gray-800">
+        <Experience />
+      </section>
+      <Contact></Contact>
     </>
   );
 }
