@@ -3,7 +3,7 @@ import Projects from "../data/portfolio";
 const Portfolio = () => {
   return (
     <section className="max-w-screen-xl mx-auto p-4 mt-16">
-      <h2 className="text-3xl dark:text-white text-center font-bold">
+      <h2 className="text-5xl my-4 dark:text-white text-center font-bold font-serif">
         Portfolio
       </h2>
       <div className="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3">
