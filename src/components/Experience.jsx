@@ -10,7 +10,7 @@ const Experience = () => {
       <h2 className="text-5xl dark:text-white absolute left-4 top-[-30px] text-center font-bold font-serif">
         Experience
       </h2>
-      <div className="mt-8">
+      <div className="mt-8 pb-16">
         <VerticalTimeline layout="1-column-left">
           <VerticalTimelineElement
             className=""
