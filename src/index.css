@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.bg-image {
+  background-image: url(./assets/bg-image2.png);
+  background-repeat: no-repeat;
+  background-position: right center;
+  filter: grayscale();
+}
