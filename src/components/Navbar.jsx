@@ -14,10 +14,9 @@ const Navbar = () => {
   return (
     <nav className="bg-white border-gray-200 dark:bg-secondary">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-        <a href="#" className="flex items-center space-x-3 rtl:space-x-reverse">
-          <img src="../assets/react.svg" className="h-8" alt="vite Logo" />
-          <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"></span>
-        </a>
+        <p className="text-2xl md:text-5xl font-serif dark:text-gray-white text-white">
+          V<span className="text-gold-300">Z</span>
+        </p>
         <button
           data-collapse-toggle="navbar-default"
           type="button"
@@ -68,12 +67,20 @@ const Navbar = () => {
                 Contact
               </a>
             </li>
+            <li>
+              <a
+                href="#"
+                className="block py-2 px-3 text-gray-400 font-semibold rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:p-0  hover:text-white hover:font-semibold"
+              >
+                Blog
+              </a>
+            </li>
           </ul>
         </div>
         <button
           id="theme-toggle"
           type="button"
-          className="text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5"
+          className="opacity-0 text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5"
           onClick={toggleDarkMode}
         >
           <svg
